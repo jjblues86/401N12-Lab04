@@ -1,0 +1,26 @@
+{
+  "name": "401n12-lab04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjblues86/401N12-Lab04.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjblues86/401N12-Lab04/issues"
+  },
+  "homepage": "https://github.com/jjblues86/401N12-Lab04#readme",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  },
+  "dependencies": {
+    "faker": "^4.1.0"
+  }
+}
