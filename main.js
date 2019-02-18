@@ -27,6 +27,15 @@ fs.writeFile(`${__dirname}/loop.js`, names, (error) => {
 
 })
 
+const tagName = fs.openSync('pair-programming.txt', 'a+');
+
+const buf = new Buffer('<article>');
+
+fs.appendFile(tagName, buf, err => {
+
+});
+
+fs.write(tagName, buf, 0, buf.length, 0);
 
 
 
